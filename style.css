@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body */
+body {
+  background-color: rgb(4, 2, 29);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+/* navigation bar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  font-size: 1.5rem;
+  background-color: rgb(11, 30, 83);
+  padding: 0 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgb(13, 184, 236);
+  font-size: 23px;
+}
+li {
+  list-style: none;
+  margin: 0 25px;
+}
+
+/* first Section */
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 23px 0;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.firstSection > div {
+  width: 30%;
+}
+.firstSection .leftSection {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+.webDeveloper {
+  height: 350px;
+  width: 100%;
+}
+.purple {
+  color: rgb(141, 64, 212);
+}
+main hr {
+  border: 0;
+  background: aqua;
+  height: 1px;
+  margin: 50px;
+}
+nav .left {
+  font-size: 2rem;
+}
+/* second Section */
+.secondSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+.secondSection > div {
+  width: 30%;
+}
+.secondSection h1 {
+  font-size: 2rem;
+}
+.para {
+  font-size: 20px;
+  margin: 5px 15px;
+}
+.manish {
+  margin: 0px;
+  border-radius: 30%;
+  width: 50%;
+  height: auto;
+}
+.upper {
+  text-decoration: none;
+  margin: 1px;
+  font-size: large;
+}
+/* third Section-skills*/
+.thirdSection {
+  width: 80%;
+  color: rgb(12, 185, 185);
+  margin: 20px auto;
+}
+.thirdSection h1{
+  width: 80%;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 1rem;
+  font-size: 2rem;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.thirdSection .skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.leftSection3,.rightSection3{
+  background-color:  rgb(11, 30, 83);;
+  margin-top: 2rem;
+  padding: .5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  width: 32%;
+  align-items: center;
+  justify-content:space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.thirdSection ul li{
+  color: aliceblue;
+    font-size: larger;
+    font-weight: bolder;
+    padding: .5rem 1rem;
+    list-style-type:upper-roman;  
+  }
+
+  /* fourth Section-Project*/
+  .fourthSection {
+    width: 80%;
+  color: rgb(12, 185, 185);
+  margin:auto;
+}
+.fourthSection h1{
+  border: 1px solid;
+  border-radius: 1rem;
+  font-size: 2rem;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.fourthSection .projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.leftSection4, .middleSection4,.rightSection4{
+  margin-top: 2rem;
+  padding: .5rem;
+  background-color:  rgb(11, 30, 83);;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  width: 32%;
+  align-items: center;
+  justify-content:space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fourthSection div img{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height:80%;
+  border-radius: 2rem;
+}
+.leftSection3:hover, .rightSection3:hover,.leftSection4:hover, .middleSection4:hover, .rightSection4:hover{
+  background-color: transparent;
+  border: 2px solid;
+    cursor: default;
+}
+
+/* fifth section - RESUME*/
+.fifthSection {
+  width: 75%;
+  color: rgb(12, 185, 185);
+  margin: auto;
+}
+
+.fifthSection h1{
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 1rem;
+}
+
+.fifthSection .resume{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.middleSection5{
+  margin-top: 2rem;
+  padding: .5rem;
+  border: 1px solid transparent;
+  width: 75%;
+  justify-content:space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.resume .middleSection5 img{
+  width: 80%;
+}
+.fifthSection div img{
+  border-radius: 2rem;
+}
+
+/* Sixth Section */
+#name,
+#email,
+#message {
+  border-radius: 10px;
+  border-color: rgb(24, 119, 119);
+  background: transparent;
+  font-family: serif;
+  font-size: 1rem;
+  color: rgb(180, 219, 253);
+  margin: 5px;
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  height: 70px;
+}
+
+.direct-contact {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+article {
+  border-style: double;
+  color: aqua;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  border-color: aqua;
+  background: transparent;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  width: 100%;
+}
+
+#submit {
+  margin: 1rem 20%;
+  border-width: 5px;
+  border-color: rgb(11, 184, 184);
+  height: 40px;
+  width: 120px;
+  background-color: rgb(8, 116, 179);
+  border-radius: 10px;
+  font-size: 25px;
+  color: white;
+  font-family: fantasy;
+}
+
+
+.sixthSection {
+  width: 80%;
+  color: rgb(12, 185, 185);
+  margin: auto;
+}
+.sixthSection h1{
+  border: 1px solid;
+  border-radius: 1rem;
+  font-size: 2rem;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.sixthSection .contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.leftSection6,.rightSection6{
+  margin-top: 2rem;
+  padding: .5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  width: 35%;
+  align-items: center;
+  justify-content:center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/*Media Queries*/
+@media (max-width: 1200px) {
+.skills,.projects,.resume{
+  align-items: center;
+  flex-direction: column;
+}
+.leftSection3,.rightSection3,.leftSection4,.middleSection4,.rightSection4,.middleSection5{
+  width: 80%;
+  align-items: center;
+  flex-direction: column;
+  object-fit: cover;
+}
+
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+  }
+  
+  .firstSection > div,
+  .secondSection > div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .webDeveloper {
+    max-height: 300px;
+  }
+  
+  .manish {
+    max-width: 150px;
+  }
+.contact{
+  flex-direction: column;
+  align-items: center;
+}
+.leftSection6,.rightSection6{
+  width: 80%;
+}
+
+}
+
+@media (max-width: 480px) {
+  nav .left{
+    font-size: 1.5rem;
+  }
+  nav {
+    height: 80px;
+    font-size: .6rem;
+    padding: 10px 20px;
+  }
+  nav ul {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+
+  .leftSection4 h2, .rightSection4 h2, .middleSection4 h2, .leftSection3 h2, .rightSection3 h2{
+    font-size: 1rem;
+  }
+  .thirdSection h1, .fourthSection h1, .fifthSection h1, .sixthSection h1{
+    font-size: 1.5rem;
+  }
+  .firstSection {
+    flex-direction: column;
+  }
+  
+  .secondSection {
+    flex-direction: column;
+  }
+  
+  .thirdSection {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #submit {
+    width: 8rem;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
